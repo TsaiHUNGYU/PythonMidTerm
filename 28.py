@@ -3,8 +3,10 @@ b=list(input("please enter your answer :"))
 A=0
 B=0
 while True:
-    
-    if b == "0000":
+    ending = ""
+    for x in range(4):
+        ending += b[x]
+    if ending == "0000":
         break 
     else:   
         for i in range(len(a)):
