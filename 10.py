@@ -1,6 +1,6 @@
 a = input("輸入N及M為:").split()
-list1 = []
 count = 1
+list1 = []
 while count <= int(a[0]):
     b = input("輸入矩陣數值第"+str(count)+"列為:").split()
     list1.append(b)
